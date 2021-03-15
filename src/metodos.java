@@ -22,7 +22,7 @@ public class metodos {
 //}
 //}
  
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		
 
 		 
@@ -58,3 +58,25 @@ public class metodos {
 	}
 }
 
+*/
+	public static void main(String[] args) {
+
+		Scanner teclado = new Scanner(System.in);
+
+		 int numero;
+		 System.out.println	("Introducir valor final");	
+	numero=teclado.nextInt();
+	
+
+	for(int i=0; i<numero;i+=3) {
+	
+	System.out.println("Los multiplos son: " +i);
+
+	}
+	
+}
+}
+	
+	
+	
+	
